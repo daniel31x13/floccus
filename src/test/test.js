@@ -1286,7 +1286,7 @@ describe('Floccus', function() {
                 ]
               }),
               false,
-              Boolean(account.server.orderFolder)
+              false,
             )
           })
           it('should not fail when both moving folders and deleting their contents', async function() {
